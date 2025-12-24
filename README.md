@@ -1,16 +1,128 @@
-# React + Vite
+🛒 Amazon Clone – React + Vite + Firebase
+📌 Project Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This Amazon Clone is a fully functional e-commerce web application built with React, Vite, and Firebase.
+It recreates the essential Amazon shopping flow — users can browse products, authenticate securely, add items to their cart, and view a complete checkout summary.
 
-Currently, two official plugins are available:
+The project focuses on:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Clean, reusable React components
 
-## React Compiler
+Smooth global state management using Context API + useReducer
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Firebase authentication for secure user sessions
 
-## Expanding the ESLint configuration
+A modern, responsive UI that looks good on all devices
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This makes it a strong learning and portfolio project showing real-world front-end architecture.
+
+🚀 Live Demo
+
+👉 https://amazon-clone-2025je.netlify.app/
+
+✨ Key Features
+🖥️ Modern & Responsive UI
+
+A clean Amazon-style interface adapted for desktop, tablet, and mobile.
+
+🔐 Secure Authentication
+
+Using Firebase Authentication for:
+
+Login
+
+Signup
+
+Logout
+
+Session persistence
+
+🛒 Shopping Cart System
+
+Users can add/remove items and see:
+
+Real-time cart totals
+
+Automatic state updates
+
+Checkout page summary
+
+⭐ Product Display
+
+Each product includes:
+
+Image
+
+Title
+
+Rating
+
+Price
+
+Displayed in grids similar to Amazon’s homepage.
+
+🔥 Firebase Integration
+
+Used for managing:
+
+Authentication
+
+User session state
+
+⚡ Fast Performance with Vite
+
+Fast dev server, optimized builds, and instant hot reloading.
+
+🧠 How It Works
+🛒 Global State (Context API)
+
+Manages:
+
+Cart items
+
+User session
+
+Product data
+
+The state updates instantly across all components using useReducer actions.
+
+🔐 Firebase Authentication
+
+Handles:
+
+Login
+
+Signup
+
+Logout
+
+Auto session persistence (user stays logged in)
+
+🛍️ Cart System
+
+Each interaction dispatches actions to update global state.
+Items added or removed from the cart immediately update the cart count and checkout details.
+
+📌 Future Improvements
+
+Stripe payment integration
+
+Admin panel for adding products
+
+Order history page
+
+Wishlist system
+
+Product search & filtering
+
+🧰 Tech Stack
+
+React
+
+Vite
+
+Firebase (Auth & Firestore)
+
+Context API + useReducer
+
+CSS / Material UI
