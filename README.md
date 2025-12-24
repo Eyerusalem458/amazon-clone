@@ -1,4 +1,5 @@
 🛒 Amazon Clone – React + Vite + Firebase
+
 📌 Project Overview
 
 This Amazon Clone is a fully functional e-commerce web application built with React, Vite, and Firebase.
@@ -18,14 +19,14 @@ This makes it a strong learning and portfolio project showing real-world front-e
 
 🚀 Live Demo
 
-👉 https://amazon-clone-2025je.netlify.app/
+👉 https://amazon-clone-2025je.netlify.app
 
 ✨ Key Features
-🖥️ Modern & Responsive UI
+    🖥️ Modern & Responsive UI
 
 A clean Amazon-style interface adapted for desktop, tablet, and mobile.
 
-🔐 Secure Authentication
+   🔐 Secure Authentication
 
 Using Firebase Authentication for:
 
@@ -47,7 +48,7 @@ Automatic state updates
 
 Checkout page summary
 
-⭐ Product Display
+   ⭐ Product Display
 
 Each product includes:
 
@@ -61,7 +62,7 @@ Price
 
 Displayed in grids similar to Amazon’s homepage.
 
-🔥 Firebase Integration
+  🔥 Firebase Integration
 
 Used for managing:
 
@@ -69,11 +70,11 @@ Authentication
 
 User session state
 
-⚡ Fast Performance with Vite
+  ⚡ Fast Performance with Vite
 
 Fast dev server, optimized builds, and instant hot reloading.
 
-🧠 How It Works
+  🧠 How It Works
 🛒 Global State (Context API)
 
 Manages:
